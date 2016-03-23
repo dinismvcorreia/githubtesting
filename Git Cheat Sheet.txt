@@ -72,3 +72,17 @@ git pull
 git tag
 	Tags the current branch.
 	
+git stash
+	Saves changes in a stashing changes area and rolls back working directory to the previous state.
+	
+	stash list
+	Lists all stashes in the stashing changes area.
+	
+	stash apply
+	Brings the latest state in the stashing changes area to the working directory.	
+
+	stash pop
+	Same as before but removes the stash.
+	
+	stash drop
+	Removes the latest stash from the stashing changes area.

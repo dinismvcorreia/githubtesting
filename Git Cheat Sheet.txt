@@ -30,4 +30,11 @@ git reset --hard
 	reset --soft HEAD~1
 	Sets the working directory equal to the HEAD~1 commit, staging all changes in HEAD~1. Sets the HEAD to HEAD~1.	
 	
+git branch
+	Shows local branches.
 	
+	branch -r
+	Shows remote branches.
+	
+git remote add origin «remote git repo address»
+	Sets a remote repository named origin, using the specified address.

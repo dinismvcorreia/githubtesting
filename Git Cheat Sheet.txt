@@ -22,4 +22,12 @@ git checkout "«filename»"
 	Undo the changes in the working directory (uses the file from the HEAD - latest commit).
 	
 git reset --hard
-	Undo all the changes in the working directory.
+	Undo all the changes in the working directory, using the files on the HEAD commit.
+	
+	reset --hard HEAD~1
+	Sets the working directory equal to the HEAD~1 commit. Sets the HEAD to HEAD~1.
+	
+	reset --soft HEAD~1
+	Sets the working directory equal to the HEAD~1 commit, staging all changes in HEAD~1. Sets the HEAD to HEAD~1.	
+	
+	

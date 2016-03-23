@@ -86,3 +86,6 @@ git stash
 	
 	stash drop
 	Removes the latest stash from the stashing changes area.
+	
+git merge «branchname»
+	Merges branchname into the current branch.

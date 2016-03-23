@@ -50,3 +50,6 @@ git fetch
 	
 git pull
 	Perform a git fetch and a git merge.
+
+git tag
+	Tags the current branch.

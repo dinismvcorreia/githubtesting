@@ -1,0 +1,10 @@
+Git Cheat Sheet
+
+git init
+	Initializes a git repository
+	
+git status
+	Shows the status of the working area and the staging area (used to prepare files to commit to repository)
+	
+git add -u
+	Adds all updated files to the staging area (doesn't include new/untracked files)

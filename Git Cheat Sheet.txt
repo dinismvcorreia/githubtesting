@@ -24,6 +24,12 @@ git log
 git checkout "«filename»"
 	Undo the changes in the working directory (uses the file from the HEAD - latest commit).
 	
+	checkout «branchname»
+	Makes the branch named branchname the current branch (points the HEAD to it).
+	
+	checkout -b «branchname»
+	Creates a branch named branchname and checks it out.
+	
 git reset --hard
 	Undo all the changes in the working directory, using the files on the HEAD commit.
 	
@@ -39,6 +45,15 @@ git branch
 	branch -r
 	Shows remote branches.
 	
+	branch «branchname»
+	Creates a new branch named branchname.
+	
+	branch -d «branchname»
+	Deletes branch named branchname if it's already merged.
+	
+	branch -D «branchname»
+	Deletes branch named branchname unconditionally.
+
 git remote add origin «remote git repo address»
 	Sets a remote repository named origin, using the specified address.
 

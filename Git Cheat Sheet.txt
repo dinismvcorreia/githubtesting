@@ -89,3 +89,6 @@ git stash
 	
 git merge «branchname»
 	Merges branchname into the current branch.
+	
+git cherry-pick «commit»
+	Applies the commit to the current branch.

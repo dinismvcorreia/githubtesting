@@ -12,13 +12,13 @@ git add -u
 	add -A
 	Adds ALL modified, deleted and new files to the staging area.
 	
-git commit -m "«message»"
+git commit -m "Â«messageÂ»"
 	Commits all files in the staging area to the repository, using the specified message.
 	
 git log
 	Shows the latest commits in descending order.
 	
-git checkout "«filename»"
+git checkout "Â«filenameÂ»"
 	Undo the changes in the working directory (uses the file from the HEAD - latest commit).
 	
 git reset --hard
@@ -36,5 +36,8 @@ git branch
 	branch -r
 	Shows remote branches.
 	
-git remote add origin «remote git repo address»
+git remote add origin Â«remote git repo addressÂ»
 	Sets a remote repository named origin, using the specified address.
+
+git push
+	Pushes the local commits to the remote branch.	

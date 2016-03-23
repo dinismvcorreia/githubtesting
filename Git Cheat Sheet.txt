@@ -1,10 +1,25 @@
 Git Cheat Sheet
 
 git init
-	Initializes a git repository
+	Initializes a git repository.
 	
 git status
-	Shows the status of the working area and the staging area (used to prepare files to commit to repository)
+	Shows the status of the working area and the staging area (used to prepare files to commit to repository).
 	
 git add -u
-	Adds all updated files to the staging area (doesn't include new/untracked files)
+	Adds all updated files to the staging area (doesn't include new/untracked files), only updates and deletions.
+	
+	add -A
+	Adds ALL modified, deleted and new files to the staging area.
+	
+git commit -m "«message»"
+	Commits all files in the staging area to the repository, using the specified message.
+	
+git log
+	Shows the latest commits in descending order.
+	
+git checkout "«filename»"
+	Undo the changes in the working directory (uses the file from the HEAD - latest commit).
+	
+git reset --hard
+	Undo all the changes in the working directory.

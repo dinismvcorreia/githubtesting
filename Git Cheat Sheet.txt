@@ -92,3 +92,12 @@ git merge «branchname»
 	
 git cherry-pick «commit»
 	Applies the commit to the current branch.
+	
+--- Usefull plumbing commands ---
+
+git cat-file -p «SHA1»
+	Inspects the object specified by SHA1
+	
+git show-ref «branchname»
+	Shows the commits pointed by all references of branchname, either local or remote.
+	

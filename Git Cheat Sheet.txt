@@ -16,10 +16,10 @@ git commit -m "«message»"
 	Commits all files in the staging area to the repository, using the specified message.
 	
 git commit -am "«message»"
-	Adds all modified files to the staging area and commmits them to the local repository, using the specified message.
+	Adds all modified files to the staging area and commits them to the local repository, using the specified message.
 	
-git log
-	Shows the latest commits in descending order.
+git log [-n]
+	Shows the latest n commits in descending order. If n is ommited then it shows the whole log.
 	
 git checkout "«filename»"
 	Undo the changes in the working directory (uses the file from the HEAD - latest commit).

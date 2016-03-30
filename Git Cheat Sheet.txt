@@ -15,8 +15,11 @@ git add -u
 git commit -m "«message»"
 	Commits all files in the staging area to the repository, using the specified message.
 	
-git commit -am "«message»"
+	commit -am "«message»"
 	Adds all modified files to the staging area and commits them to the local repository, using the specified message.
+	
+	commit --amend -m "«message»"
+	Amends the last commit specifying a new message. Put all changes in staging before commiting.
 	
 git log [-n]
 	Shows the latest n commits in descending order. If n is ommited then it shows the whole log.

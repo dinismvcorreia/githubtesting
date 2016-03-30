@@ -93,6 +93,9 @@ git merge «branchname»
 git cherry-pick «commit»
 	Applies the commit to the current branch.
 	
+git clone «git repo url»
+	Clones a remote git repository to the local machine.
+	
 --- Usefull plumbing commands ---
 
 git cat-file -p «SHA1»

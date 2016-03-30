@@ -22,7 +22,8 @@ git commit -m "«message»"
 	Amends the last commit specifying a new message. Put all changes in staging before commiting.
 	
 git log [-n] [--stat]
-	Shows the latest n commits in descending order. If n is ommited then it shows the whole log. Parameter stat enables extended view on log.
+	Shows the latest n commits in descending order. If n is ommited then it shows the whole log. 
+	Parameter stat enables extended view on log. (e.g: Check GitHub for changes verification)
 	
 git checkout "«filename»"
 	Undo the changes in the working directory (uses the file from the HEAD - latest commit).

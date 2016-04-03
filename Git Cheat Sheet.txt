@@ -12,6 +12,9 @@ git add -u
 	add -A
 	Adds ALL modified, deleted and new files to the staging area.
 	
+git reset HEAD [«file»]
+	Unstages all files. If «file» is specified then it only unstages the specified file.
+	
 git commit -m "«message»"
 	Commits all files in the staging area to the repository, using the specified message.
 	

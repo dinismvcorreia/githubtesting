@@ -15,11 +15,15 @@ git add -u
 git commit -m "«message»"
 	Commits all files in the staging area to the repository, using the specified message.
 	
-git commit -am "«message»"
+	commit -am "«message»"
 	Adds all modified files to the staging area and commits them to the local repository, using the specified message.
 	
-git log [-n]
-	Shows the latest n commits in descending order. If n is ommited then it shows the whole log.
+	commit --amend -m "«message»"
+	Amends the last commit specifying a new message. Put all changes in staging before commiting.
+	
+git log [-n] [--stat]
+	Shows the latest n commits in descending order. If n is ommited then it shows the whole log. 
+	Parameter stat enables extended view on log. (e.g: Check GitHub for changes verification)
 	
 git checkout "«filename»"
 	Undo the changes in the working directory (uses the file from the HEAD - latest commit).
@@ -54,21 +58,6 @@ git branch
 	branch -D «branchname»
 	Deletes branch named branchname unconditionally.
 
-git remote add origin «remote git repo address»
-	Sets a remote repository named origin, using the specified address.
-
-git push
-	Pushes the local commits to the remote branch.	
-
-git push --tags
-	Pushes the local tags to the remote branch.	
-	
-git fetch
-	Brings remote branches to local repository WITHOUT merging them.
-	
-git pull
-	Perform a git fetch and a git merge.
-
 git tag
 	Tags the current branch.
 	
@@ -86,12 +75,34 @@ git stash
 	
 	stash drop
 	Removes the latest stash from the stashing changes area.
+
+---//---
+	
+git remote add origin «remote git repo address»
+	Sets a remote repository named origin, using the specified address.
+
+git push
+	Pushes the local commits to the remote branch.	
+
+git push --tags
+	Pushes the local tags to the remote branch.	
+	
+git fetch
+	Brings remote branches to local repository WITHOUT merging them.
+	
+git pull
+	Perform a git fetch and a git merge.
 	
 git merge «branchname»
 	Merges branchname into the current branch.
 	
 git cherry-pick «commit»
 	Applies the commit to the current branch.
+	
+git clone «git repo url»
+	Clones a remote git repository to the local machine.
+	
+---//---	
 	
 --- Usefull plumbing commands ---
 

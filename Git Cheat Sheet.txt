@@ -60,6 +60,12 @@ git branch
 	
 	branch -D «branchname»
 	Deletes branch named branchname unconditionally.
+	
+git remote prune origin --dry-run
+	Lists all branches that can be deleted/pruned on local. (notice --dry-run)
+	
+	remote prune origin
+	Delete all uneeded remote branches on local.
 
 git tag
 	Tags the current branch.

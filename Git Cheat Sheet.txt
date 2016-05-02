@@ -61,6 +61,12 @@ git branch
 	branch -D «branchname»
 	Deletes branch named branchname unconditionally.
 	
+	branch -m «newbranchname»
+	Renames the current branch.
+	
+	branch -m «oldbranchname» «newbranchname»
+	Renames the branch named oldbranchname» to newbranchname.
+	
 git remote prune origin --dry-run
 	Lists all branches that can be deleted/pruned on local. (notice --dry-run)
 	

@@ -105,6 +105,9 @@ git push --tags
 git fetch
 	Brings remote branches to local repository WITHOUT merging them.
 	
+	fetch --all --prune
+	After bringing all remote branches to local repository, deletes all remote branches that are no longer tracked on origin.
+	
 git pull
 	Perform a git fetch and a git merge.
 	

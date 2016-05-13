@@ -102,6 +102,9 @@ git push
 git push --tags
 	Pushes the local tags to the remote branch.	
 	
+	push origin :«branchname»
+	Deletes remote branch.
+	
 git fetch
 	Brings remote branches to local repository WITHOUT merging them.
 	

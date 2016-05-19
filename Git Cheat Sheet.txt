@@ -76,8 +76,8 @@ git remote prune origin --dry-run
 git tag
 	Tags the current branch.
 	
-git stash
-	Saves changes in a stashing changes area and rolls back working directory to the previous state.
+git stash [save]
+	Saves staging area content to a stashing changes area and rolls back working directory to the previous state.
 	
 	stash list
 	Lists all stashes in the stashing changes area.

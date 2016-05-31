@@ -112,7 +112,10 @@ git fetch
 	After bringing all remote branches to local repository, deletes all remote branches that are no longer tracked on origin.
 	
 git pull
-	Perform a git fetch and a git merge.
+	Performs a git fetch and a git merge.
+	
+	pull --rebase
+	Performs a git fetch and a git rebase.
 	
 git merge «branchname»
 	Merges branchname into the current branch.

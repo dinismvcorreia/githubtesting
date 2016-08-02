@@ -105,6 +105,10 @@ git push --tags
 	push origin :«branchname»
 	Deletes remote branch.
 	
+	push --force
+	Forces the current history to be pushed to the server, overwritting it.
+	Caution when more than one person is using the remote branch.
+	
 git fetch
 	Brings remote branches to local repository WITHOUT merging them.
 	
